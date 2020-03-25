@@ -27,6 +27,10 @@ main legend {
     text-align: center; 
 }
 
+div form fieldset label{
+    display: block; 
+}
+
 .beginQuiz {
     margin: auto;  
     text-align: center; 
@@ -50,17 +54,16 @@ fieldset {
     width: 50%; 
     margin: auto; 
     padding: 15px; 
-    color: white; 
     font-size: 20pt; 
     font-family: sans-serif;
 }
 
 .true {
-    background-color: green;
+    background-color: #52FF52;
 }
 
 .false {
-    background-color: red; 
+    background-color: #FF6161; 
 }
 
 .finishedQuiz {
@@ -74,6 +77,9 @@ fieldset {
     body {
         background-image: url('https://cdn.shopify.com/s/files/1/0345/7561/products/USA_flag_preview_1024x1024.png?v=1407265141'); 
     }
+    .questionResultContainer{
+        width: 75%; 
+    }
 }
 
 @media(max-width: 450px){
@@ -83,6 +89,9 @@ fieldset {
 
     main {
         height: 100%; 
+    }
+    .questionResultContainer{
+        width: 100%; 
     }
 }
 
