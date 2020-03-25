@@ -5,6 +5,7 @@
 body {
     background-image: url('https://i.postimg.cc/kGJq2VwG/81-De-Zi-N7q-L-AC-SL1500.jpg'); 
     background-size: 100%; 
+    background-repeat: no-repeat;
 }
 
 header {
@@ -35,6 +36,37 @@ main legend {
     margin-top: 20px; 
 }
 
+fieldset {
+    border: none; 
+    margin-top: 20px; 
+}
+
+#submitAnswer {
+    margin-top: 10px; 
+}
+
+.questionResultContainer{
+    text-align: center; 
+    width: 50%; 
+    margin: auto; 
+    padding: 15px; 
+    color: white; 
+    font-size: 20pt; 
+    font-family: sans-serif;
+}
+
+.true {
+    background-color: green;
+}
+
+.false {
+    background-color: red; 
+}
+
+.finishedQuiz {
+    border: 4px solid black; 
+}
+
 @media(max-width: 750px){
     header, main {
         width: 75%; 
@@ -53,3 +85,4 @@ main legend {
         height: 100%; 
     }
 }
+

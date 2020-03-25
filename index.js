@@ -1,52 +1,35 @@
-let store = [
-    {state:"Alabama",capitol:"Montgomery"},
-    {state:"Alaska",capitol:"Juneau"},
-    {state:"Arizona",capitol:"Phoenix"},
-    {state:"Arkansas",capitol:"Little Rock"},
-    {state:"California",capitol:"Sacramento"},
-    {state:"Colorado",capitol:"Denver"},
-    {state:"Connecticut",capitol:"Hartford"},
-    {state:"Delaware",capitol:"Dover"},
-    {state:"Florida",capitol:"Tallahassee"},
-    {state:"Georgia",capitol:"Atlanta"},
-    {state:"Hawaii",capitol:"Honolulu"},
-    {state:"Idaho",capitol:"Boise"},
-    {state:"Illinois",capitol:"Springfield"},
-    {state:"Indiana",capitol:"Indianapolis"},
-    {state:"Iowa",capitol:"Des Moines"},
-    {state:"Kansas",capitol:"Topeka"},
-    {state:"Kentucky",capitol:"Frankfort"},
-    {state:"Louisiana",capitol:"Baton Rouge"},
-    {state:"Maine",capitol:"Augusta"},
-    {state:"Maryland",capitol:"Annapolis"},
-    {state:"Massachusetts",capitol:"Boston"},
-    {state:"Michigan",capitol:"Lansing"},
-    {state:"Minnesota",capitol:"St. Paul"},
-    {state:"Mississippi",capitol:"Jackson"},
-    {state:"Missouri",capitol:"Jefferson City"},
-    {state: "Montana", capitol:"Helena"},
-    {state: "Nebraska", capitol:"Lincoln"},
-    {state: "Nevada", capitol:"Carson City"},
-    {state: "New Hampshire", capitol:"Concord"},
-    {state: "New Jersey", capitol:"Trenton"},
-    {state: "New Mexico", capitol:"Santa Fe"},
-    {state: "New York", capitol:"Albany"},
-    {state: "North Carolina", capitol:"Raleigh"},
-    {state: "North Dakota", capitol:"Bismarck"},
-    {state: "Ohio", capitol:"Columbus"},
-    {state: "Oklahoma", capitol:"Oklahoma City"},
-    {state: "Oregon", capitol:"Salem"},
-    {state: "Pennsylvania", capitol:"Harrisburg"},
-    {state: "Rhode Island", capitol:"Providence"},
-    {state: "South Carolina", capitol:"Columbia"},
-    {state: "South Dakota", capitol:"Pierre"},
-    {state: "Tennessee", capitol:"Nashville"},
-    {state: "Texas", capitol:"Austin"},
-    {state: "Utah", capitol:"Salt Lake City"},
-    {state: "Vermont", capitol:"Montpelier"},
-    {state: "Virginia", capitol:"Richmond"},
-    {state: "Washington", capitol:"Olympia"},
-    {state: "West Virginia", capitol:"Charleston"},
-    {state: "Wisconsin", capitol:"Madison"},
-    {state: "Wyoming", capitol:"Cheyenne"}
-]
+Question1: what is the capitol of Alabama?
+            choice 1) Montgomery; 
+            choice 2) Phoenix
+            choice 3) St. Louis
+            choice 4) Little Rock
+
+Question2: what is the capitol of Colorado?
+            choice 1) Dover; 
+            choice 2) Boise; 
+            choice 3) Denver; 
+            choice 4) Indianapolis; 
+
+Question3: what is the capitol of Missouri?
+            choice 1) Topeka; 
+            choice 2) Pierre; 
+            choice 3) Columbus; 
+            choice 4) Jefferson City; 
+
+Question4: what is the capitol of Rhode Island?
+            choice 1) Montgomery; 
+            choice 2) Juno;
+            choice 3) Providence;	
+            choice 4) Lincoln;	
+
+Question5: what is the capitol of South Carolina?
+            choice 1) Columbia; 
+            choice 2) Albany; 
+            choice 3) Boston; 
+            choice 4) Indianapolis; 
+
+Question6: what is the capitol of Wyoming?
+            choice 1) Phoenix; 
+            choice 2) Pierre; 
+            choice 3) Cheyenne; 
+            choice 4) Juneau;             

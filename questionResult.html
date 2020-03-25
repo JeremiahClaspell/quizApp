@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Capitals Quiz</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>The State Capitals Quiz</h1>
+        <div class="statsContainer">
+            <p class="questionNumber">Question Number: 1/5</p>
+            <p class="currentScore">Current Score: 1/1</p>
+        </div>
+    </header>
+    <main>
+            <div class="inQuiz"> 
+            <form>
+                <label class="question">What is the capital of Colorado?</label>
+                <fieldset>
+                    <label for="capital1">Dover</label>
+                    <input name="capital" id="capital1" type="radio" required>
+                    <label for="capital2">Boise</label>
+                    <input name="capital" id="capital2" type="radio" required>
+                    <label for="capital3">Denver</label>
+                    <input name="capital" id="capital3" type="radio" required>
+                    <label for="capital4">Indianapolis</label>
+                    <input name="capital" id="capital4" type="radio" required>
+                </fieldset>
+                <button type="submit" id="nextQuestion">Next question</button>
+            </form>
+        </div> 
+    </main>
+    <div class="questionResultContainer true">
+        <p class="questionResult">True</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
